@@ -1,0 +1,371 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.2">
+  <style>
+     body {
+      background-color: #ffe6e6; /* Soft pastel pink */
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+  }
+    /* This will style all images inside your events */
+    .title {
+      font-family: 'Dancing Script', cursive;  /* Apply fancy script font */
+      font-size: 60px;  /* Increase font size */
+      font-weight: bold;  /* Make the title bold */
+      color: #ff4d6d;  /* Soft red/pink color */
+      text-align: center;  /* Center-align the text */
+      margin-top: 30px;  /* Space from the top */
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);  /* Add shadow for extra flair */
+      padding: 20px 0;  /* Space above and below the text */
+    }
+    .event img {
+            width: 300px;       
+            height: auto;       
+            border-radius: 15px; 
+            object-fit: cover;  
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            margin-bottom: 10px; 
+            display: block;
+            margin-left: auto;  
+            margin-right: auto;
+    }
+  
+    /* Optional: Center everything */
+    .event {
+        text-align: center;
+        margin-bottom: 30px; /* Adds space between each event */
+    }
+  
+    .event-content {
+        font-family: Cambria;
+        color: #4a4a4a;
+    }
+    .valentines-message {
+    font-size: 48px;  /* Larger text */
+    font-weight: bold;
+    color: #ff4d6d;  /* Soft red/pink color */
+    text-align: center;
+    margin-top: 30px;  /* Extra space on top */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);  /* Add shadow for effect */
+    padding: 20px 0;  /* Add padding for spacing */
+    font-family: 'Arial', sans-serif;
+    font-style: italic;  /* Make it italicized for extra flair */
+    }
+    .valentines-message {
+  opacity: 0;  /* Start with the text invisible */
+  transform: translateY(50px);  /* Start from below */
+  transition: opacity 1.5s ease, transform 1.5s ease;  /* Smooth transition */
+}
+
+.valentines-message.visible {
+  opacity: 1;  /* Fade in */
+  transform: translateY(0);  /* Move to original position */
+}
+.footer {
+  font-family: 'Arial', sans-serif;  /* Standard font, you can change this if you want */
+  font-size: 24px;  /* Adjust font size */
+  text-align: center;  /* Center the text */
+  margin-top: 50px;  /* Space between content and footer */
+  color: #4a4a4a;  /* Soft gray text color */
+  padding: 20px 0;  /* Padding for spacing */
+  background-color: #ffe6e6;  /* Soft pink background, same as the website */
+  position:relative;  /* Keep it fixed at the bottom */
+  width: 100%;  /* Make it span the entire width of the screen */
+  bottom: 0;  /* Align it at the bottom */
+}
+.event-date {
+  font-weight: bold;
+}
+
+.event-description {
+  font-style: italic;
+}
+.spotify-container {
+    display: flex; /* Makes the elements inside appear side by side */
+    align-items: center; /* Vertically aligns the content */
+    justify-content: center; /* Centers the content horizontally */
+    margin-top: 20px; /* Add some spacing if needed */
+}
+
+.spotify-message {
+    margin-left: 10px; /* Adds space between the Spotify embed and the text */
+    font-style: italic; /* Optional: style it however you'd like */
+    font-size: 14px; /* You can adjust the size to your preference */
+    color: #ff4d6d; /* Optional: Make the text pink or any color you like */
+}
+.fade-in-last {
+    opacity: 0;  
+    transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+    transform: translateY(20px); /* Optional: Adds a slight upward motion */
+}
+
+.fade-in-last.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+  </style>
+</head>
+<body>
+  <div class="spotify-container">
+    <!-- Embed Spotify player -->
+    <iframe src="https://open.spotify.com/embed/playlist/51HnyWAAd4nugTx8jB5jFs?utm_source=generator" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    
+    <!-- Message next to the Spotify player -->
+    <span class="spotify-message">(<--- play this while scrolling)</span>
+</div>
+<div class="title">
+  Me and Blud ❤️
+</div>
+<div class="event">
+  <img src="comp/novx.24'on the bus to volunteer'.jpeg" 
+  <div class="event-content">
+      <div class="event-date">November, 2023</div>
+      <div class="event-description">On the bus to volunteer.</div>
+  </div>
+  <div class="event">
+    <img src="comp/mar25.24'just friends still'.jpeg" 
+    <div class="event-content">
+        <div class="event-date">March 25, 2024</div>
+        <div class="event-description">Just friends still. You sent me this when you were in Korea.</div>
+    </div>
+    <div class="event">
+      <img src="comp/apr25.24'my old pfp'.jpeg" 
+      <div class="event-content">
+          <div class="event-date">April 25, 2024</div>
+          <div class="event-description">The old pfp in my contact in your phone.</div>
+      </div>
+      <div class="event">
+        <img src="apr29.24'my old pic of u'.PNG" 
+        <div class="event-content">
+            <div class="event-date">April 29, 2024</div>
+            <div class="event-description">The old pic of your contact in my phone.</div>
+        </div>
+          <div class="event">
+            <img src="comp/may11.24'STARBUCKS STUDY DATE (one of several)'.JPG" 
+            <div class="event-content">
+                <div class="event-date">May 11, 2024</div>
+                <div class="event-description">STARBUCKS STUDY DATE (one of many coffee study dates as friends).</div>
+            </div>  
+            <div class="event">
+              <img src="comp/june2.24'cutie cow'.jpeg" 
+              <div class="event-content">
+                  <div class="event-date">June 2, 2024</div>
+                  <div class="event-description">cutie cow!</div>
+              </div>       
+              <div class="event">
+                <img src="comp/june11.24'SUPER GORGEOUS GRAD PHOTO!'.jpeg" 
+                <div class="event-content">
+                    <div class="event-date">June 11, 2024</div>
+                    <div class="event-description">SUPER GORGEOUS GRAD PHOTO!!<3 </div>
+                </div> 
+                <div class="event">
+                  <img src="comp/june14.24'pre-dating wendy's date at burnaby mtn'.jpeg" 
+                  <div class="event-content">
+                      <div class="event-date">June 14, 2024</div>
+                      <div class="event-description">Pre-dating Wendy's date at Burnaby Mtn. </div>
+                  </div> 
+                  <div class="event">
+                    <img src="comp/june21.24'casually calling'.jpeg" 
+                    <div class="event-content">
+                        <div class="event-date">June 21, 2024</div>
+                        <div class="event-description">Casually calling (as we did many times). </div>
+                    </div>  
+                    <div class="event">
+                      <img src="comp/june21.24'platonic copa date after i got a 6 in math'.jpeg" 
+                      <div class="event-content">
+                          <div class="event-date">June 21, 2024</div>
+                          <div class="event-description">Platonic Copa date after I got a 6 in math. </div>
+                      </div>
+                      <div class="event">
+                        <img src="comp/june24.24'first time hanging out as more than friends'.JPG" 
+                        <div class="event-content">
+                            <div class="event-date">June 24, 2024</div>
+                            <div class="event-description">First time hanging out as more than friends. </div>
+                        </div>    
+                        <div class="event">
+                          <img src="comp/june29.24'FIRST DATE LOOK HOW BEAUTIFUL MY GIRLFRIEND IS'.jpeg" 
+                          <div class="event-content">
+                              <div class="event-date">June 29, 2024</div>
+                              <div class="event-description">FIRST DATE! LOOK AT HOW BEAUTIFUL MY GIRLFRIEND, LARISSA, IS!! </div>
+                          </div>   
+                          <div class="event">
+                            <img src="comp/july10.24'hanging out as boyfriend-girlfriend at burnaby mtn'.jpeg" 
+                            <div class="event-content">
+                                <div class="event-date">July 10, 2024</div>
+                                <div class="event-description">Hanging out as boyfriend/girlfriend at Burnaby Mtn. </div>
+                            </div>    
+                            <div class="event">
+                              <img src="comp/july13.24'ON A WALK WITH ARTHUR'.jpeg" 
+                              <div class="event-content">
+                                  <div class="event-date">July 13, 2024</div>
+                                  <div class="event-description">On a walk with Arthur. </div>
+                              </div>  
+                              <div class="event">
+                                <img src="comp/july27.24'dt looking for fireworks'.jpeg" 
+                                <div class="event-content">
+                                    <div class="event-date">July 27, 2024</div>
+                                    <div class="event-description">Downtown looking for the FIREWORKS! </div>
+                                </div>   
+                                <div class="event">
+                                  <img src="comp/aug2.24'on a walk with the dude, arthur'.jpeg" 
+                                  <div class="event-content">
+                                      <div class="event-date">August 2, 2024</div>
+                                      <div class="event-description">On a walk with the dude, Arthur. </div>
+                                  </div>    
+                                  <div class="event">
+                                    <img src="comp/aug5.24'i made noodles for us'.jpeg" 
+                                    <div class="event-content">
+                                        <div class="event-date">August 5, 2024</div>
+                                        <div class="event-description">I made noodles for us! </div>
+                                    </div>  
+                                    <div class="event">
+                                      <img src="comp/aug13.24'blud was vauuming papar's car'.jpeg" 
+                                      <div class="event-content">
+                                          <div class="event-date">August 13, 2024</div>
+                                          <div class="event-description">Blud was vacuuming papar's car (your hair looks good down, it's a shame it hurts your head). </div>
+                                      </div>  
+                                      <div class="event">
+                                        <img src="comp/aug19.24'blud hard at work with cow (i think it's an old pic)'.jpeg" 
+                                        <div class="event-content">
+                                            <div class="event-date">August 19, 2024</div>
+                                            <div class="event-description">Blud hard at work with Cow (I think it's an old pic). </div>
+                                        </div> 
+                                        <div class="event">
+                                          <img src="comp/aug22.24'me getting blud an iced capp'.jpeg" 
+                                          <div class="event-content">
+                                              <div class="event-date">August 22, 2024</div>
+                                              <div class="event-description">Me getting blud an Iced Capp. </div>
+                                          </div>  
+                                          <div class="event">
+                                            <img src="comp/aug22.24'haidilao date with blud after her hair got coloured (SO GORGEOUS)'.jpeg" 
+                                            <div class="event-content">
+                                                <div class="event-date">August 22, 2024</div>
+                                                <div class="event-description">Haidilao date with blud after her hair got coloured (SO GORGEOUS). </div>
+                                            </div> 
+                                            <div class="event">
+                                              <img src="comp/aug22.24'me doing a cost check of my fit'.jpeg" 
+                                              <div class="event-content">
+                                                  <div class="event-date">August 22, 2024</div>
+                                                  <div class="event-description">Me doing a cost check of my fit. </div>
+                                              </div> 
+                                              <div class="event">
+                                                <img src="comp/aug31.24'HELPING BLUD MOVE IN'.JPG" 
+                                                <div class="event-content">
+                                                    <div class="event-date">August 31, 2024</div>
+                                                    <div class="event-description">HELPING BLUD MOVE IN! </div>
+                                                </div>      
+                                                <div class="event">
+                                                  <img src="comp/oct5.24'blud assaulted my genes'.jpeg" 
+                                                  <div class="event-content">
+                                                      <div class="event-date">October 5, 2024</div>
+                                                      <div class="event-description">Blud assaulted my genes... </div>
+                                                  </div> 
+                                                  <div class="event">
+                                                    <img src="comp/oct20.24'ME AND BLUD IN THE WHIP TG'.jpeg" 
+                                                    <div class="event-content">
+                                                        <div class="event-date">October 20, 2024</div>
+                                                        <div class="event-description">ME WITH MY TWO LOVES (first time in the tC tg) </div>
+                                                    </div> 
+                                                    <div class="event">
+                                                      <img src="comp/nov16.24'FIRST BIG WAY DATE'.jpeg" 
+                                                      <div class="event-content">
+                                                          <div class="event-date">November 16, 2024</div>
+                                                          <div class="event-description">FIRST BIGWAY DATE!! </div>
+                                                      </div> 
+                                                      <div class="event">
+                                                        <img src="comp/nov16.24'BIG SMOOCH'.jpeg" 
+                                                        <div class="event-content">
+                                                            <div class="event-date">November 16, 2024</div>
+                                                            <div class="event-description">BIGGG SMOOCH! </div>
+                                                        </div> 
+                                                        <div class="event">
+                                                          <img src="comp/dec2.24'continuing the tradition of study dates even as bf_gf'.png" 
+                                                          <div class="event-content">
+                                                              <div class="event-date">December 2, 2024</div>
+                                                              <div class="event-description">Continuing the tradition of study dates even as bf/gf. </div>
+                                                          </div>   
+                                                          <div class="event">
+                                                            <img src="comp/dec25.24'blud on xmas'.jpeg" 
+                                                            <div class="event-content">
+                                                                <div class="event-date">December 25, 2024</div>
+                                                                <div class="event-description">Blud on Christmas :3 </div>
+                                                            </div>      
+                                                            <div class="event">
+                                                              <img src="comp/dec25.24'me with blud on xmas'.jpeg" 
+                                                              <div class="event-content">
+                                                                  <div class="event-date">December 25, 2024</div>
+                                                                  <div class="event-description">Me with Blud on Christmas. </div>
+                                                              </div>    
+                                                              <div class="event">
+                                                                <img src="comp/jan10.25'blud playing pubg'.jpeg" 
+                                                                <div class="event-content">
+                                                                    <div class="event-date">January 10, 2025</div>
+                                                                    <div class="event-description">Blud playing PUBG (she's so cute). </div>
+                                                                </div>  
+                                                                <div class="event">
+                                                                  <img src="comp/jan12.25'me and blud in the kitchen'.JPG" 
+                                                                  <div class="event-content">
+                                                                      <div class="event-date">January 12, 2025</div>
+                                                                      <div class="event-description">Me and Blud in the kitchen. </div>
+                                                                  </div> 
+                                                                  <div class="event">
+                                                                    <img src="comp/jan20.25'blud after my shenanigans'.jpeg" 
+                                                                    <div class="event-content">
+                                                                        <div class="event-date">January 20, 2025</div>
+                                                                        <div class="event-description">Blud on a regular basis due to my shenanigans... </div>
+                                                                    </div> 
+                                                                    <div class="event">
+                                                                      <img src="comp/jan27.25'blud is a cutie patootie'.jpeg" 
+                                                                      <div class="event-content">
+                                                                          <div class="event-date">January 27, 2025</div>
+                                                                          <div class="event-description">Blud is a cutie patootie! </div>
+                                                                      </div> 
+                                                                      <div class="event">
+                                                                        <img src="comp/jan29.25'HAPPY (-) CHINESE NEW YEAR!'.jpeg"
+                                                                        <div class="event-content">
+                                                                            <div class="event-date">January 29, 2025</div>
+                                                                            <div class="event-description">HAPPY (?) CHINESE NEW YEAR! </div>
+                                                                        </div> 
+                                                                        <div class="event">
+                                                                          <img src="comp/feb3.25'blud has snow fever'.jpeg" 
+                                                                          <div class="event-content">
+                                                                              <div class="event-date">February 3, 2025</div>
+                                                                              <div class="event-description">Blud has snow fever 🤔 </div>
+                                                                          </div>  
+                                                                          <div class="event">
+                                                                            <img src="comp/feb3.25'incredible'.jpeg" 
+                                                                            <div class="event-content">
+                                                                                <div class="event-date">February 3, 2025</div>
+                                                                                <div class="event-description">Sensational. </div>
+                                                                            </div> 
+                                                                            <div class="event">
+                                                                              <img src="comp/'happy valentines larissa, i love you'.jpeg"> class=fade-in-last
+                                                                              <div class="valentines-message">Happy Valentine's Day Larissa! I love you ❤️</div>
+                                                                              </div>                                                                                                                                                          
+                                                                              <script>
+                                                                                // Intersection Observer to detect when the Valentine's message comes into view
+                                                                                const valentinesMessage = document.querySelector('.valentines-message');
+                                                                                
+                                                                                const observer = new IntersectionObserver((entries) => {
+                                                                                  entries.forEach(entry => {
+                                                                                    if (entry.isIntersecting) {
+                                                                                      valentinesMessage.classList.add('visible'); // Add the 'visible' class to trigger the fade-in
+                                                                                    }
+                                                                                  });
+                                                                                }, {
+                                                                                  threshold: 0.5  // The element will trigger the animation when it's 50% in view
+                                                                                });
+                                                                              
+                                                                                observer.observe(valentinesMessage);  // Start observing the Valentine's message
+                                                                              </script>
+                                                                            </body>
+      <div class="footer">
+        <p>Thank you for viewing my website and for being my love. Open your envelope now ❤️</p>
+      </div>
+</html>
